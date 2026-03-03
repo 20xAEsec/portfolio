@@ -107,8 +107,8 @@ export const CONFIG = {
   stats: [
     { value: "dynamic", label: "Experience", isDynamic: true },
     { value: "5", label: "Certifications" },
-    { value: "6+", label: "Projects" },
-    { value: "3", label: "Cloud Platforms" },
+    { value: "6+", label: "Public Projects" },
+    { value: "AWS, Azure, GCP", label: "Cloud Platforms" },
   ],
 
   // ── Certifications ──
@@ -165,7 +165,7 @@ export const CONFIG = {
     {
       category: "Cloud Platforms",
       icon: "☁️",
-      items: ["AWS (Lambda, S3, CloudWatch, SecurityHub, GuardDuty, IaC)", "Azure (IAM, Logic Apps)", "GCP (BigQuery, Cloud Run Functions)", "Serverless"],
+      items: ["AWS (Lambda, S3, CloudWatch, SecurityHub, GuardDuty, IaC)", "Azure (IAM, Logic Apps)", "GCP (BigQuery, Cloud Run Functions)", "Serverless Developmet"],
     },
     {
       category: "AppSec & Penetration Testing",
