@@ -122,6 +122,16 @@ img {
     line-height: 1.2;
 }
 
+.section-subtitle {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
 .section {
     padding: var(--section-pad) 0;
     position: relative;

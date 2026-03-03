@@ -100,7 +100,7 @@ function renderContent() {
     </div>
   `);
 
-    timeline.innerHTML = workItems.join('') + eduItems.join('');
+    timeline.innerHTML = workItems.join('');
 
     // Navigation
     const navLinks = document.getElementById('nav-links');
